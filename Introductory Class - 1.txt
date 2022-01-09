@@ -1,0 +1,94 @@
+1. access to our portal - for the videos 
+
+2. automation class >> access to the code and notes 
+
+3. homeworks - 
+
+Razin Anik 
+anik@agile1tech.com 
+
+Zakir Hossain 
+
+8 Hours a week - 
+
+
+1. test case >> execute the test cases 
+
+defects 
+
+500 test cases >> 10 testers , 1 million dollar 
+
+2-3 testers >> 700 K 
+
+regression testing >> enhancement , 500 tests 
+
+data driven tests - 
+cross browser testing - 
+
+
+1. Learning java - 4 classes - 2 weeks 
+
+2. Selenium - 4 classes - 2 weeks 
+
+3. TestNG/Cucumber - 2 weeks 
+
+4. Code managment - 2 weeks
+
+What is computer prorgram or programming language: 
+
+the language we use to provide instructions to the computer - 
+
+java, python, C , C# 
+
+Java - market demand - selenium tester 
+
+The core concept of any programming language is same: 
+
+Java Environment Setup: 
+
+machine language - 10101010100111
+
+java, python, C#, C
+
+compiler 
+interpreter
+
+oracle - 
+
+1. jdk - java development kit - version 1.8/8 
+
+jdk - jave core library + jre ( java runtime environment) 
+
+2. Eclipse - programming editor
+
+write our code - 
+
+selenium, TestNG, cucumber
+
+winrar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

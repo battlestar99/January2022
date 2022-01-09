@@ -1,0 +1,206 @@
+Computer Programming: 
+Java, Python, C 
+
+Java - object oriented programming language 
+
+Problem - solution 
+
+creating banking account: 
+
+1. distance from your home - 5 miles
+2. reputation of the bank - 3.5/5 
+3. interest rate - 2 pecent
+4. customer service - yes/no
+5. mobile app - yes/no
+6. charges - 50 dollar 
+
+Core of any programming language 
+
+1. how we can store data in computer and use them, what type of data 
+
+100
+Michael 
+100.23
+
+datatype>> number, name, ssn, email, decimal 
+
+200 
+
+whole number - int 
+decimal number - double, float 
+set of character - String, char
+conditonal data - boolean 
+
+int, String, boolean, double 
+
+datatype variable = value ;
+
+int x = 200; 
+
+x is integer type of variable which has value 200 
+
+String name = "michael" ;
+
+variable is just a placeholder for a memory location in your computer
+
+int y = 45;
+
+datatype >> specific datatype defined by java to specify which 
+type of data you want to store
+variable >> is a placeholder or memory space 
+value >> whatever stored in the variable 
+
+datatype variable = value; 
+
+int abc = 12; 
+double z = 12.0; 
+String name = "djfdlf"; 
+
+declaring a varible 
+
+int x ; 
+
+
+
+
+
+
+
+
+
+
+
+
+2. how we can create conditional statement - 
+
+3. how we can do iteration - executing same code as many times as we want 
+
+4. data structure - 
+
+5. methods / functions 
+
+6. Object oriented Programming - OOP 
+
+
+Key Point 1: for naming never use a space 
+
+creating a java project: 
+file >> new >> java project 
+
+
+Java Learning 1: 
+
+class - basic unit of java code 
+
+to write any java code - need to create a class first 
+
+100 word files - resumes, tax docs, car docs, bank docs 
+
+java class - .java file 
+
+one.java
+two.java
+testscript.java
+
+machine language file - 
+
+one.class
+two.class
+
+
+resume.docx
+data.xls
+presentation.ppt
+
+key point 2 : {} is used to descripe of scope of class, control statements or 
+methods
+
+
+Java Learning 2: 
+
+To run any class in java you need to add the main method - main method 
+is the starting point of any java code - code starts executing from main method 
+
+Two types of class in java 
+
+runnable class - class with a main method - that can be run as java application 
+
+non-runnable class - class without a main method - that can not be run anyhow
+
+.extenstion
+
+folder is place you name to store some files - 
+
+key point 2 : java is a case sensitive lanaguage 
+
+a and A is not same in java
+add, subtract, multipe, count
+
+int , double , float 
+
+47834383
+
+String ssn = "343423";
+
+datatype variablename = value; 
+int 	x    = 76;
+String 	name = "dfkldjf"
+double      y = 78.87;
+boolean 	flag = true ; 
+
+declaretion + initialzation
+
+10 mb 
+
+200 mb
+
+Problem: you are working in a car dealership. 
+to calculate - car monthly payment 
+
+baseprice
+adminfee
+tax 
+warrently plan 
+downpayment
+apr - credit score - 
+how many months for payment 
+monthly payment
+
+scenario 1: your apr should depends on your credit score 
+apr =2 
+700 > 2 
+750 > 1.5
+600 > 4 
+
+scenario 2
+warrently = 1500
+warrenty = 0 
+
+questions and answers: 6/7 questions 
+problem solving - 5 
+
+Razin Anik
+anik@agile1tech.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
