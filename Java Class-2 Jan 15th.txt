@@ -1,0 +1,244 @@
+Github link for the code - 
+
+zakir hossain - for homework 
+
+access to the portal - 
+
+wednesday 2 PM - 
+
+Review of Last week: 
+how to store data in a variable 
+
+datatype variable = value; 
+fundemental or primary datatype of java - 
+
+int a = 34; 
+
+a is an integer type of variable with value 34 
+
+double x = 12.56; 
+
+String name = "john";
+
+boolean flag = false; 
+
+declaretion: 
+
+int x; 
+
+initialization 
+
+x = 55; 
+
+class - 
+
+public class classname{
+
+public static void main(String args[]){
+
+// all code has to go inside the class
+
+// local variables 
+
+}
+
+
+
+}
+
+
+
+main method: starting point of code 
+
+public static void main(String args[]){
+
+
+
+}
+
+local variable: any variables that we create inside the main method 
+
+
+
+
+
+
+
+
+
+
+setting up java environment: 
+
+1. jdk - compiler - that will compile the code you write 
+2. eclipse - programming editor - where you write your code
+
+double a = 20; 
+
+20.0
+
+= sign means assining value - assignment 
+
+ == means comparing two values 
+
+conditional statement: 
+
+statements that execute based on if any condition is true 
+
+if(condition){
+
+// code will execute
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+if(condition1) {
+
+100 lines of code here
+
+}
+
+
+
+
+
+
+creditscore == 750 
+
+creditscore == 700 
+
+creditscore == 600
+
+
+
+
+
+
+
+
+
+
+
+if(condition){
+
+}
+
+if(condition1){
+
+
+}
+
+else{
+
+
+}
+
+
+chain of condition 
+
+if(condition1){
+}
+
+else if(condition2){
+
+}
+
+else if ( condition3){
+
+}
+
+else if(condition4){
+
+}
+
+else{
+
+
+}
+
+
+if/else/else if 
+
+switch - case 
+
+The relationship between conditional statments and boolean variables 
+
+grading calculator: 
+
+>90 - A 
+<90 - B 
+<80 - C 
+< 70 - D
+
+else if - 
+
+A - greater or equal to 90 
+
+B - less than 90 and greatern/equal than 80
+
+C - less than 80 and greater/equal than 70 
+
+D - less than 70 and greater/equal than 60 
+
+F - less than 60 
+
+
+score<90   score>=80
+
+&& >> and - all conditions have to be true
+||   or - only one condition needs to be true 
+
+(condition1 and condition2) >> true
+
+
+
+
+// take 3 numbers from console - and print the largest number 
+
+123
+654
+43
+
+
+largest number 654 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
