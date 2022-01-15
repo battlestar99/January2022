@@ -18,6 +18,32 @@ public class compareNumbers {
 		int numberThree= sc.nextInt(); 
 		
 		
+		if(numberOne>numberTwo && numberOne>numberThree) {
+			
+			System.out.println("The largest Number ...");
+			System.out.println(numberOne);
+			
+		}
+		
+		else if(numberTwo>numberOne && numberTwo>numberThree) {
+			
+			System.out.println("The largest Number ...");
+			System.out.println(numberTwo);
+			
+		}
+		
+		else if(numberThree>numberOne && numberThree>numberTwo) {
+			
+			System.out.println("The largest Number ...");
+			System.out.println(numberThree);
+			
+		}
+		
+		else {
+			
+			System.out.println("There is no largest number or  mulitple same number");
+			
+		}
 		
 		
 		

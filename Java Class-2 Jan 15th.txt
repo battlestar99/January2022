@@ -211,7 +211,35 @@ score<90   score>=80
 
 largest number 654 
 
+x 
+y 
+z 
 
+x>y and x>z 
+x is the largest number
+
+y>x abd y>z 
+y is the largest number
+
+z>x and z>y 
+z is the largest number 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nested if statement >> 
 
 
 
