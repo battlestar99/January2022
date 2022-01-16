@@ -1,0 +1,186 @@
+Review: 
+
+java project >> src >> package >> class ( .java) 
+
+class >> main method - running the code 
+
+storing data : int, String, double, boolean 
+
+conditional statements: results in a conditional statment 
+
+if(condition) {
+
+// code executes based on condition true or false 
+
+}
+
+else {}
+take 3 numbers and find the largest among them 
+
+solution: 
+
+take input 3 numbers 
+3 variables - x , y , z 
+
+if(x>y and x>z) >> x is the largest number
+else if(y>x and y>z) >> y is the largest number 
+else if(z>x and z>y) >> z is the largest number 
+else {}
+
+problem solving skill 
+
+learnt: 
+
+1. java setup and project, package, class setup 
+2. storing data: 
+datatype variablename = value; 
+int num = 23; 
+String address = "dfjhdf";
+double num12 = 65.90; 
+boolean flag = true/false; 
+
+Functions/Methods 
+
+looping - for / while - the code will be in the block as long as the condition is true 
+
+if(condition)
+for(intialize a variable;condition; increament operation){
+
+
+
+}
+
+
+
+data structure - array 
+
+x++ >> post increaement
+
+++ x >> pre increaement 
+
+x-- >> post decreament
+
+--x >> pre decreament 
+
+Problem: find out the fibonacci numbers which are less than 2000 
+
+
+
+
+
+
+
+
+while(database connection is true) {
+
+   // connect to database
+ // read a data from database 
+
+
+
+
+}
+
+problem 1: 
+Write a program to calculate the sum of first 10 natural number.
+
+1+2+3+4+5+6+7+8+9+10....+1000
+
+logical flow: 
+
+ x= 1,2,3,4
+
+
+
+
+
+
+
+
+
+x++ 
+x-- 
+
+x+=10
+x-=3
+
+data structure: how to store big amount of data in our computer program
+
+100 address
+100 first name
+
+int x = 34; 
+
+x=45; 
+
+array - 
+
+int x; 
+int x [ ] = new int [10]; lenght of the arrary is 10 
+
+String name [] = new String [20]; lenght of the array is 20
+
+double y [ ] = new double [45]; lenthg of this array is 45 
+
+int numbers [  ] = new int [ 1000] ;
+
+
+
+
+
+
+
+
+two types of error: 
+
+1. syntax error - compiler error 
+
+
+compile the code and convert to a class file >> .class 
+
+2. run time error - exception 
+
+int x = 0; 
+int y = 45; 
+
+int a = y/x; 
+
+problem: 
+
+String arrary = firstname
+string array = lastname 
+
+problem: lets create two arrary with firstname and lastname - 
+then print 
+
+firstname lastname 
+
+michael - 0 
+johnson - 0 
+
+String concatanation 
+
+x+=3
+
+Method/function 
+
+Zakir Hossain 
+
+zakir.hossain@agile1tech.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

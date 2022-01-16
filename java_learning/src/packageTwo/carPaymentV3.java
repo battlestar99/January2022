@@ -23,7 +23,7 @@ public class carPaymentV3 {
 		
 		adminfee = 300;
 		tax = 3; 
-		apr = 2; 
+	    apr = 2; 
 		
 		System.out.println("Enter the number of months for financing.");
 		months = input.nextInt(); 
