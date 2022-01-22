@@ -1,0 +1,214 @@
+Java Function or Method 
+
+int x ; 
+x=34; 
+
+x=87; 
+
+int x [] = new int[10];
+
+starting index is always 0 
+
+x[1]=12;
+
+default value is 0.0 
+default value is null
+defaul value will be false 
+
+data structure: 
+
+double y [] = new double [7];
+java method / function 
+
+main method: runs any code - starting point of java 
+
+public static void main(String args[]){
+
+// scope of the main method 
+
+}
+class >> runnable class - main method 
+
+class >> non runnable - main method
+
+method in java - 
+
+1. to create a block of code that is re-usuable - 
+
+3 things: 
+
+1. how to create a method - class, in a seperate class 
+2. how to use the method that you created 
+3. how to use the method that is created by other programmers and available in a programming libary - selenium, testng, cucumber 
+
+
+java - car payment calculator 
+java math class - 
+celsius to farenthite 
+
+
+
+
+
+
+
+
+
+
+
+to create a function: 
+
+what this function is going to do: 
+
+public void functionaname
+
+static is not mandatory - 
+
+public returntype functionname(parameters){
+
+
+return data; 
+}
+
+public String abcd(int x, String y){
+
+
+
+return "dfasdf"
+}
+methods - better to create in a seperate 
+
+main method - runnable class 
+
+method - 
+
+public returntype name(patameters){
+
+
+return "dfdsa";
+}
+
+public double abcd(String x){
+
+double z = 12.23;
+return z;
+}
+
+
+To use a method: 
+
+need to create an object of the class
+
+get("www.google.com")
+
+sendkeys("dfds")
+
+selenium - 20-25 functions to use 
+
+get(string) - navigate to an url 
+sendkeys(string) - type something in a text box 
+
+documentation - java core library 
+
+
+
+
+
+
+functions are created when you think the block of  code should be 
+re-usuable 
+
+
+
+
+
+
+
+static - 
+to use functions from different package - 
+use function from other class or library - 
+setup selenium - 
+
+
+
+
+
+
+
+
+
+1. how to create a function 
+
+public void caluclate(int x){
+
+
+}
+
+
+2. how to use a function 
+
+sampleClass sc = new sampleClass(); 
+
+
+traditoinal programming - 
+
+
+
+OOP - class is a design 
+object is the implementation of the design 
+
+any non runnable is a data type 
+
+primary data type - int, string, double, boolean 
+
+reference data type - non runnable class 
+
+
+
+
+
+
+
+
+int x = 34; // declaring a variable and initialiae with a value 
+
+int x; // creating a memory space in our computer which is integer type and name is x , but it is empty 
+
+x = 56; // we are initializing with the value 56 
+
+reference variable 
+
+sampleClass sc = new sampleClass() ; // declaraion and initializtion 
+
+sampleClass sc; // declaring a reference variable 
+
+sc = new sampleClass(); // initialization happens 
+
+sampleClass ab = new sampleClass(); 
+
+
+
+
+
+
+
+
+
+
+
+getText()
+
+returntype - int, String, double, array, char
+
+
+
+
+
+
+
+
+
+
+
+
+

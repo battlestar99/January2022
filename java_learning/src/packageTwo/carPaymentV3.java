@@ -7,6 +7,10 @@ public class carPaymentV3 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
+		
+		carUtility utility = new carUtility();
+		
+		
 		double basePrice; 
 		double downpayment; 
 		double adminfee; 
@@ -44,7 +48,7 @@ public class carPaymentV3 {
 		System.out.println("Total price of the car ...");
 		System.out.println(totalprice);
 		
-		taxValue = (totalprice*(tax/100));
+		taxValue = utility.getTaxAmount(totalprice, tax);
 		
 		totalPricewithTax = totalprice + taxValue;
 		
@@ -57,22 +61,7 @@ public class carPaymentV3 {
 		System.out.println("Financing amount of the car ...");
 		System.out.println(financeAmount);
 		
-		if(creditScore>=750) {
-			
-			apr = 1.5; 
-			
-		}
-		else if(creditScore<750 && creditScore>=680 ) {
-			
-			apr = 2.5; 
-			
-		}
-		
-		else if(creditScore<680 && creditScore>=600 ) {
-			
-			apr = 4; 
-			
-		}
+		apr = utility.calculateApr(creditScore);
 		
 		
 		
@@ -83,7 +72,7 @@ public class carPaymentV3 {
 		
 		financeAmount = financeAmount + interestAmount; 
 		
-		monthlyPayment = financeAmount/months;
+		monthlyPayment = utility.calculateMonthlyPayment(financeAmount, months);
 		
 		System.out.println("Monthly payment amount of the car ...");
 		System.out.println(monthlyPayment);
