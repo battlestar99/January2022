@@ -14,7 +14,7 @@ public class helloSelenium {
 		WebDriver driver = new ChromeDriver();
 		
 		
-		System.out.println("this is first selenium class");	
+		
 		
 		
 
