@@ -200,6 +200,127 @@ getText()
 
 returntype - int, String, double, array, char
 
+static - 
+to use functions from different package - 
+use function from other class or library - 
+setup selenium - 
+
+
+
+
+
+
+class - main method >> .java file is created 
+
+on runnable class - no main method >> 
+
+creating a method: 
+
+public returntype methodname(parameters){
+
+block of code 
+
+return returndata; 
+
+
+}
+
+sampleclass
+
+public boolean get(double x, String y){
+
+block of code 
+
+
+return true/false; 
+}
+
+main method: 
+
+sampleClass sc = new sampleClass(); 
+
+sc.get(12.12,"fdfd");
+
+
+3 classes 
+
+project1
+
+mathclass - add, sub, multipley
+temparature - findlocaltemp, findinternaltemp, 
+financeClass - findcreditscore, findhome
+
+3 packages >> you can zip - jar file - java archive file
+
+programming librry - documentation 
+
+mathclass >> 
+
+class name , mathclass >> 
+
+
+add ( int x, int y) - int >> provide two integer value and the method will return you the summation of the two value 
+
+sub()
+
+
+
+
+open source : 
+
+Programming Library: 
+
+jar file >> packages >> classes >> methods or properties 
+
+selenium >> 
+
+Test automation / automation testing 
+Browser Automation 
+
+google chrome
+mozila
+IE
+Black Box testing >> testing an application from the end user perspective 
+
+testing the code >> white box testing , developers
+
+SDET -  
+
+testing the application>> black box testing - testers, Q A analyst, QA engineer
+
+windows application, mac application , mobile testing 
+
+web based - 
+
+Requirement - BRD, SRS, SDS, User stories 
+
+release note: 
+
+1. new feature
+2. updated or modified feature
+3. bug/defect fixes 
+
+
+selenium functions: 
+
+open the browser
+navigate to an url 
+type something in text box
+select something drop down 
+
+selenium is a brwoser automation tool which interact with anything that is 
+happening inside the browser 
+
+3rd party libary - anything that is not part of java core library 
+
+selenium library - 2 jar files 
+
+selenium java
+selenium standalone server
+
+
+
+
 
 
 
