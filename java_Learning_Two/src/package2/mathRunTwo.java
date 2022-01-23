@@ -16,8 +16,6 @@ public class mathRunTwo {
 		
 		abc.nextInt();
 		
-		
-		
 		int c = Math.max(123, 124);
 		
 	
