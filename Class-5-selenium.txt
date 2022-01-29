@@ -1,0 +1,125 @@
+selenium setup: 
+
+1. jdk download 
+2. eclipse - as the programming editor 
+3. programming libraries - selenium, selenium java, selenium server-standalone 
+
+why using selenium, the features of the selenium: 
+
+programming libraries: 
+
+1. core java library - jdk 
+2. third party libary - jar file 
+
+packages >> non runable class >> functions and properties 
+
+selenium library is used for Testing 
+
+selenium : web application - browser 
+
+interact with the web application - testing, web scraping 
+
+Black box testing - functionalitiy - user side 
+
+1. open browser
+2. navigate to the url "www.something.com"
+3. click on button
+4. type a text 
+5. select from dropdown
+6. 
+
+20 functions - 
+
+user stories >> 
+
+test scenario 
+test cases 
+execution - manual exectution 
+automation scripts >> 
+
+How to use selenium to perform different types of web application interaction? 
+
+20 functions 
+
+
+
+
+object of the class 
+
+1. Funtionality of the browser - 
+
+webdriver class is providing us all the browser functionalities 
+
+2. Interaction with the web elements or web objects - components of the 
+web page that an user can interact with 
+
+text box - type a text in the box - 
+button - click 
+link - click 
+drop down menu - selecting from options 
+check box
+radio button 
+table 
+alert 
+
+
+step 1: finding the web element - locating tecniques 
+
+HTML - hypertext markup language - creating all the web elements 
+CSS - cascadding style sheet 
+
+finding the web element - every browser provides developer tools 
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;" aria-invalid="false">
+
+attributes 
+type = text
+id = usernamereg-firstName
+class
+name = firstName
+value
+
+two most common locating tecniques: 
+
+id 
+name
+
+
+
+
+
+
+
+
+step 2: interacting with the web element 
+
+
+
+
+
+
+
+
+
+User stories or requirement 
+Test scenario / Test cases 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
