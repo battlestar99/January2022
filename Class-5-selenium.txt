@@ -187,7 +187,7 @@ Req 2: you have to use if/else conditional statment
 if the first name is displayed 
 print ( first name is displayed in the page) 
 if not displayed 
-print ( firtst name is not displayed in the page) 
+print ( first name is not displayed in the page) 
 
 do the same thing for last name also 
 
@@ -198,6 +198,14 @@ Req 4: read the url and title and print the value in the console
 
 
 https://multiproduct.nationwide.com/multi-quote/getting-started
+
+February 14th - we are starting weekday 
+
+monday and wednesday - from 630 PM - 930 PM
+
+
+
+
 
 
 
