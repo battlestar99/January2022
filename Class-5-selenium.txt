@@ -196,8 +196,25 @@ in the console
 
 Req 4: read the url and title and print the value in the console 
 
+Problem 2: sample web application for sign up 
+
+https://travel.testsigma.com/signup
+
+fill out the full form for sign up
+
+
+
+
+
+
+
 
 https://multiproduct.nationwide.com/multi-quote/getting-started
+
+
+
+
+
 
 February 14th - we are starting weekday 
 
