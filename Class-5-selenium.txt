@@ -99,10 +99,105 @@ step 2: interacting with the web element
 User stories or requirement 
 Test scenario / Test cases 
 
+january - 30th - selenium class 2 
+
+
+Finding the web element 
+
+<input type="text" name="yid" id="usernamereg-yid" autocomplete="username" placeholder="Email&nbsp;address" aria-label="Email&nbsp;address" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:yid;slk:yid;">
+
+id="usernamereg-yid"
+name="yid"
 
 
 
 
+facebook users - 
+
+email anik@agile1tech.com
+password
+dob 
+address
+
+employess 
+
+employeeiud
+dob
+salary
+designation
+
+
+
+textbox >> input
+button >> button
+drop down >> select
+link >> a 
+
+locating tecniuqes in selenium: 
+
+id
+name
+xpath >> //*[@id="usernamereg-yid"]
+css selector 
+
+finding links in a page >> a ( anchor tag)
+linktext >> Help
+partiallinktext 
+
+find multiple web elements at the same time 
+findelements()
+tagname
+classname
+
+
+
+
+
+
+browser function - webdriver
+
+driver.getcurrentUrl >> finds the current url where the drive is and returns us the value as a string 
+
+driver.getTitle >> finds the title of the page and returns us a string 
+
+webelements functions - weblement class
+
+isdisplayed - to check if any webelement is displayed in the page 
+
+isselected - to check if any option is selection 
+
+isenabled - to check it any webelement is enabled 
+
+getText - to read the text written in the webelement
+
+
+
+go(parameters )>> return a value / void 
+
+classname objectname = new classname(); 
+
+
+
+Class Task: 
+
+https://multiproduct.nationwide.com/multi-quote/getting-started
+
+Req 1: check if first name and last name are displayed in page 
+Req 2: you have to use if/else conditional statment
+if the first name is displayed 
+print ( first name is displayed in the page) 
+if not displayed 
+print ( firtst name is not displayed in the page) 
+
+do the same thing for last name also 
+
+req 3: read what is written on the button ( agree and continue) and print it
+in the console 
+
+Req 4: read the url and title and print the value in the console 
+
+
+https://multiproduct.nationwide.com/multi-quote/getting-started
 
 
 
