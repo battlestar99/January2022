@@ -1,0 +1,240 @@
+selenium setup: 
+
+1. jdk download 
+2. eclipse - as the programming editor 
+3. programming libraries - selenium, selenium java, selenium server-standalone 
+
+why using selenium, the features of the selenium: 
+
+programming libraries: 
+
+1. core java library - jdk 
+2. third party libary - jar file 
+
+packages >> non runable class >> functions and properties 
+
+selenium library is used for Testing 
+
+selenium : web application - browser 
+
+interact with the web application - testing, web scraping 
+
+Black box testing - functionalitiy - user side 
+
+1. open browser
+2. navigate to the url "www.something.com"
+3. click on button
+4. type a text 
+5. select from dropdown
+6. 
+
+20 functions - 
+
+user stories >> 
+
+test scenario 
+test cases 
+execution - manual exectution 
+automation scripts >> 
+
+How to use selenium to perform different types of web application interaction? 
+
+20 functions 
+
+
+
+
+object of the class 
+
+1. Funtionality of the browser - 
+
+webdriver class is providing us all the browser functionalities 
+
+2. Interaction with the web elements or web objects - components of the 
+web page that an user can interact with 
+
+text box - type a text in the box - 
+button - click 
+link - click 
+drop down menu - selecting from options 
+check box
+radio button 
+table 
+alert 
+
+
+step 1: finding the web element - locating tecniques 
+
+HTML - hypertext markup language - creating all the web elements 
+CSS - cascadding style sheet 
+
+finding the web element - every browser provides developer tools 
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;" aria-invalid="false">
+
+attributes 
+type = text
+id = usernamereg-firstName
+class
+name = firstName
+value
+
+two most common locating tecniques: 
+
+id 
+name
+
+
+
+step 2: interacting with the web element 
+
+
+
+
+
+
+
+
+
+User stories or requirement 
+Test scenario / Test cases 
+
+january - 30th - selenium class 2 
+
+
+Finding the web element 
+
+<input type="text" name="yid" id="usernamereg-yid" autocomplete="username" placeholder="Email&nbsp;address" aria-label="Email&nbsp;address" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:yid;slk:yid;">
+
+id="usernamereg-yid"
+name="yid"
+
+
+
+
+facebook users - 
+
+email anik@agile1tech.com
+password
+dob 
+address
+
+employess 
+
+employeeiud
+dob
+salary
+designation
+
+
+
+textbox >> input
+button >> button
+drop down >> select
+link >> a 
+
+locating tecniuqes in selenium: 
+
+id
+name
+xpath >> //*[@id="usernamereg-yid"]
+css selector 
+
+finding links in a page >> a ( anchor tag)
+linktext >> Help
+partiallinktext 
+
+find multiple web elements at the same time 
+findelements()
+tagname
+classname
+
+
+
+
+
+
+browser function - webdriver
+
+driver.getcurrentUrl >> finds the current url where the drive is and returns us the value as a string 
+
+driver.getTitle >> finds the title of the page and returns us a string 
+
+webelements functions - weblement class
+
+isdisplayed - to check if any webelement is displayed in the page 
+
+isselected - to check if any option is selection 
+
+isenabled - to check it any webelement is enabled 
+
+getText - to read the text written in the webelement
+
+
+
+go(parameters )>> return a value / void 
+
+classname objectname = new classname(); 
+
+
+
+Class Task: 
+
+https://multiproduct.nationwide.com/multi-quote/getting-started
+
+Req 1: check if first name and last name are displayed in page 
+Req 2: you have to use if/else conditional statment
+if the first name is displayed 
+print ( first name is displayed in the page) 
+if not displayed 
+print ( first name is not displayed in the page) 
+
+do the same thing for last name also 
+
+req 3: read what is written on the button ( agree and continue) and print it
+in the console 
+
+Req 4: read the url and title and print the value in the console 
+
+Problem 2: sample web application for sign up 
+
+https://travel.testsigma.com/signup
+
+fill out the full form for sign up
+
+
+
+
+
+
+
+
+https://multiproduct.nationwide.com/multi-quote/getting-started
+
+
+
+
+
+
+February 14th - we are starting weekday 
+
+monday and wednesday - from 630 PM - 930 PM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

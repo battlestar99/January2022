@@ -11,6 +11,7 @@ public class seleniumRun {
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\January_2022_WS\\seleniumProject\\lib\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.saucedemo.com/");

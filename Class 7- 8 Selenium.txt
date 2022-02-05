@@ -1,0 +1,160 @@
+drop down menu - select 
+
+getText functions 
+
+creating test case - manual 
+creating test script - automation - regression 
+
+requirement - user stories - jira 
+
+testing: 
+
+1. get the requirment 
+2. understand the application
+3. create test case / test scripts >> validating the requirement 
+4. execute test case or scripts 
+5. after getting the results - log defects 
+
+
+1. locating tecniuqes - what should be used, what should not be used and why 
+
+8 locating tecniques: 
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" valueofsomething = "a"value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;">
+
+what is an attribute with unique value? 
+fundamental attribute 
+
+firstname text box
+id = "name"
+
+lastname text box 
+id = "name"
+
+driver.findlement(by.id(name));
+
+//*[@valueofsomething="a"]
+
+id
+name
+
+you have to find an unique value for all the weblements of the page 
+
+
+
+
+
+compound attribute - 
+
+xpath
+
+relative xpath: comes from the attributes of the weblements
+//*[@id="usernamereg-firstName"]
+//*[@autocomplete="given-name"]
+//*[@ placeholder="First&nbsp;name"]
+//*[@id="usernamereg-firstName"]
+
+common structure of relative xpath
+//tagname[@attribute="value"]
+
+modified xpath
+
+text box 
+name = firstname 
+
+button
+name = firstname
+
+driver.findelement(by.name(firstname)
+
+
+//input[@name="firstName"]
+
+//button[@name="firstName"]
+
+//*[@name="firstname"]
+
+
+// and / forward slash 
+
+absolute xpath - comes from the html and css structure of the weblement
+/html/body/div[1]/div[2]/div[1]/div/form/fieldset/div/div[1]/input
+
+id
+name
+
+xpath >> modified xpath
+
+absolute xpath 
+
+
+css selector 
+
+tagname[attribute='value']
+input[name='firstname']
+
+locating tecniques - for links (anchor tag or a tag) 
+
+linktext
+partiallinktext 
+
+finding multiple web elements - 
+
+classname >>
+tagname >> input, button
+
+1. which one you prefer? 
+2. if there is nothing unique what you are going to do?
+3. modified xpath? 
+4. links >> linktext, partiallinktext 
+
+
+2. synchronization tecniuqes - wait 
+
+implicit wait - is used to confirm if all the webelemenets of the page is 
+loaded/displayed
+
+3s -
+8s-
+11s-
+
+explicit wait - is used to confirm if only one webelement of the page 
+is loaded or displayed
+
+hidden webelements >> 
+
+college 
+
+college name
+
+thread.sleep() - java function to stop the execution of the code in the thread 
+
+
+3. constructor - is  java tecnique to setup initial value for an object 
+
+and used to create page object model 
+
+class has two things: 
+properties 
+functions
+
+
+
+4. page object model - 
+
+class , object , methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
