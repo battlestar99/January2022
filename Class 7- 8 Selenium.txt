@@ -144,6 +144,173 @@ functions
 
 class , object , methods
 
+TestNG >> 
+Java basic: 
+
+class, package 
+runnable class >> main method >> need to run the script , test scripts 
+non-runnable class>> no main method >> functions and properties 
+
+how we can create and use functions from the classes we created
+and also from a library? 
+
+create an object in a runnable class: 
+classname objectname = new classname(); 
+
+traditional programming >> write some instructions 
+
+OOP >> object oriented programming 
+
+you can design anything, then you can create things from the design 
+
+class >> 
+
+what it will be able to do
+what it's attribute 
+
+Human as a design 
+
+can do >>
+run
+eat
+play
+drive 
+
+atributes 
+name
+address
+ssn
+amountofmoney
+
+
+
+
+
+
+
+
+facebook 
+
+it can do
+post
+like
+comment
+
+attributes
+userid = anik
+password=dfljdlk
+email=anik@agile1tech
+dob
+
+class is a design or prototype
+object is the implementation of the design 
+
+object oriented programming >>   
+
+car 
+
+two properties: 
+color
+mileage 
+
+methods: 
+drive
+accelerate
+
+constructor
+page object model >> 
+
+testscripts >> 
+
+1. finding web elements
+
+2. interacting web elements
+
+3 web elements 
+
+firstname >> 10 different scripts id=fname
+lastname>> 10 different scripts
+address >> 5 different scripts 
+
+20 webelements >> 200 different scripts 
+
+non runnable classes with functions that will find the weblements 
+
+page object model - in selenium or automation testing 
+
+seperating web elements from your test scripts 
+
+for each web page of the application >> one page object model class
+
+10 web page >> 10 page object model classes 
+
+20 web pages >> 20 page object model classes
+
+
+
+object driven framework: when you seperate the web elements or web objects from the test scripts 
+
+data driven framework: when you seperate test data from test scripts
+
+Hybrid Framework : object driven + data driven
+
+page object model: 
+
+1. why you are creating them
+2. how you create them
+page object models are not test scripts 
+
+
+
+object driven framework: 
+
+function how to create and use 
+
+parameters
+return 
+name
+class
+
+why we create page object model 
+
+maintanance and manage easily 
+
+functionalities we need: 
+
+1. organize the test >> pre requirment, tests, post requirments, multiple steps 
+
+2. pass/fail criterion - 
+expected result - requirment
+actual result - after executing test 
+
+expected result = actual result >> test passes
+otherwise >> test fails 
+
+3. generating report - 
+
+smoke testing >> critical and important >> 50 smoke test
+
+
+4. test suite - collection of test cases 
+
+300 tests >> regression
+
+5. data driven framework >> 
+
+setup testNG: 
+
+1. testNG plugin for eclipse 
+2. testNG jar file 
+
+
+
+
+
+
+
+
+
+
 
 
 
