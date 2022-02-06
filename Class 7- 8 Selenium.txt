@@ -300,6 +300,9 @@ smoke testing >> critical and important >> 50 smoke test
 setup testNG: 
 
 1. testNG plugin for eclipse 
+
+https://testng.org/testng-eclipse-update-site/
+
 2. testNG jar file 
 
 
