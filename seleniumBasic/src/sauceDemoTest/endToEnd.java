@@ -46,6 +46,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\J
 		
 		String url = driver.getCurrentUrl();
 		String title = driver.getTitle();
+		
 		pp.addBackpacktoCart().click();
 		pp.addBikeLighttoCart().click();
 		pp.clickCart().click();

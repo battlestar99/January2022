@@ -11,6 +11,7 @@ public class standardUserTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
+		// pre-requirement of the test
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\January_2022_WS\\seleniumBasic\\Lib\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
@@ -27,10 +28,15 @@ public class standardUserTest {
 		
 		Thread.sleep(2000);
 		
-		
+		// test steps 
 		lp.getUserName().sendKeys("standard_user");
 		lp.getPassword().sendKeys("secret_sauce");
 		lp.getloginButton().click();
+		
+		
+		// post-requiremnet of the test 
+		
+		driver.quit();
 		
 		
 		

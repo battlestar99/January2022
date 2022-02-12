@@ -1,0 +1,139 @@
+Test Script : automated test case 
+code/class/script >> actually execute tests 
+
+Test case: manual test case 
+
+java main method >> way of running any java code >> runnable class
+non-runnable class >> functions + properties 
+
+loginpage >> 
+
+loginpage lp = new loginpage(); 
+Testing Library - TestNG , Cucumber 
+
+1. Test organization - annotations 
+
+100 tests 
+
+2. pass/fail scenario - assertion 
+compare expected and actual test 
+expected result >> requirements/user stories 
+actual result >> after executing the test 
+
+100 tests 
+
+3. Test suite >> collection of test case
+
+100 tests running all together 
+
+4. generate report - 
+
+5. data driven testing - 
+
+selenium - browser automation 
+
+
+
+Annotations: annotations are already created in TestNG and following
+a set sequeence, with any annotations, we need to add a function
+and the code we are going to write inside the function will be executed
+when the annotation will execute 
+
+
+@BeforeTest >> pre-requirment of all  the tests of a test script
+@Test >> this is a test
+@AfterTest >> post-requirment of the test of all the tests of a test script
+
+BeforeMethod >> get executed before each test , if you have some steps
+or code you want to execute before each test 
+AfterMethod >> get execute after each test , if you have steps you want to execute after each test 
+
+what is one test? 
+
+one test case 
+
+30 test scripts >> @Test 100 times >> 100 tests, you automated 100 test cases 
+
+an user story >> to validate this user story 
+depends on the user story >> 
+
+user story: 101 
+A login panel is created in saucedemo, login panel should have
+option to take userrname and password, and a loginbutton. user should
+be able to login with right username and password. locked out user should not be able to login, and performance issue user should take
+extra time login.  After login clicking the back button should log out the user from the system
+
+Test case 01 : validating if the weblements are displayed - username, password, login button is in the login page 
+
+Test case 02: validate if the username and password text boxes are enabled and user is able to type their username and password 
+Test case 03: user can login with right username and password 
+Test case 04: user can not login with wrong user name and password 
+Test case 05: locked out user can not login
+Test case 06: performance user can login with delayed response 
+Test case 07: vcalidating if clicking back button can log out user from the system 
+
+user story 2: clicking the help link user should be navigate to help page 
+
+Test case 01: click the help and check if user is in the help page
+
+
+
+
+
+
+
+
+
+Beforetest
+beforemethod
+test1
+aftermethod
+beforemthod
+test2
+aftermethod
+beformethod
+test3
+aftermethod
+aftertest
+
+
+BeforeClass
+BeforeSuite 
+AfterClass
+AfterSuite 
+
+Assertion: 
+
+exepcted result 
+actual result 
+
+String boolean int double 
+
+code can fail 
+
+null pointer excep, sesson not created exception >> code failure 
+
+assertion exception >> defect of the application 
+
+getcurrentlurl
+gettitle
+isdisplayed
+isenabled
+gettext
+
+1 test >> 1 test case >> 1 test scenario > 1 @test annotation
+
+1 test sciprt >> 5 @test 
+
+
+
+
+
+
+
+
+
+
+
+
+
