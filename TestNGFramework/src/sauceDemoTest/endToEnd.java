@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -73,6 +74,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\J
 		
 		String actualUrl = driver.getCurrentUrl();
 		
+		Reporter.log("Validating login with valid credential");
 	
 		Assert.assertEquals(actualUrl,expectedUrl);
 	
@@ -95,6 +97,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\J
 		String expectedText = "REMOVE";
 		String actualText = cr.getRemoveProductOne().getText();
 		
+		Reporter.log("validating if user can add product to the cart");
 		
 		Assert.assertEquals(actualText,expectedText);
 		
@@ -122,6 +125,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\J
 	String expectedCheckoutComplete = "https://www.saucedemo.com/checkout-complete.html";
 	String actualCheckoutCopmplet = driver.getCurrentUrl();
 	
+	Reporter.log("validating checkout is successful with a product");
 	
 	Assert.assertEquals(actualCheckoutCopmplet,expectedCheckoutComplete);
 		

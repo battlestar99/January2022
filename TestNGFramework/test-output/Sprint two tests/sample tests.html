@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  sample tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sample tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 13 12:23:15 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>17 seconds (17350 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sauceDemoTest.loginActionValidation.negativeLogin()'><b>negativeLogin</b><br>Test class: sauceDemoTest.loginActionValidation<br/>
+<a href="#Output-1572256205" onClick='toggleBox("Output-1572256205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572256205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572256205">
+validating login with negative credentials<br/>
+</div>
+</td>
+<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;...s://www.saucedemo.co[m]/&gt; but was:&lt;...s://www.saucedemo.co[]/&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at sauceDemoTest.loginActionValidation.negativeLogin(loginActionValidation.java:97)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1572256205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1572256205'><pre>junit.framework.ComparisonFailure: expected:&lt;...s://www.saucedemo.co[m]/&gt; but was:&lt;...s://www.saucedemo.co[]/&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at sauceDemoTest.loginActionValidation.negativeLogin(loginActionValidation.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>sauceDemoTest.loginActionValidation@32d992b2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sauceDemoTest.endToEnd.addProduct()'><b>addProduct</b><br>Test class: sauceDemoTest.endToEnd<br/>
+<a href="#Output-441001942" onClick='toggleBox("Output-441001942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-441001942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-441001942">
+validating if user can add product to the cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauceDemoTest.endToEnd@1810399e</td></tr>
+<tr>
+<td title='sauceDemoTest.endToEnd.checkoutProcess()'><b>checkoutProcess</b><br>Test class: sauceDemoTest.endToEnd<br/>
+<a href="#Output-1515877023" onClick='toggleBox("Output-1515877023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1515877023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1515877023">
+validating checkout is successful with a product<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>sauceDemoTest.endToEnd@1810399e</td></tr>
+<tr>
+<td title='sauceDemoTest.endToEnd.loginTest()'><b>loginTest</b><br>Test class: sauceDemoTest.endToEnd<br/>
+<a href="#Output-1293226111" onClick='toggleBox("Output-1293226111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293226111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293226111">
+Validating login with valid credential<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauceDemoTest.endToEnd@1810399e</td></tr>
+<tr>
+<td title='sauceDemoTest.loginActionValidation.positiveLogin()'><b>positiveLogin</b><br>Test class: sauceDemoTest.loginActionValidation<br/>
+<a href="#Output-884860061" onClick='toggleBox("Output-884860061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-884860061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884860061">
+validating login with positive credentials<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauceDemoTest.loginActionValidation@32d992b2</td></tr>
+</table><p>
+</body>
+</html>

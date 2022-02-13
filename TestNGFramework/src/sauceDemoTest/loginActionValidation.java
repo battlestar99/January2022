@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -72,6 +73,7 @@ public class loginActionValidation {
 		
 		String actualUrl = driver.getCurrentUrl();
 		
+		Reporter.log("validating login with positive credentials");
 	
 		Assert.assertEquals(actualUrl,expectedUrl);
 	
@@ -87,10 +89,11 @@ public class loginActionValidation {
 		lp.getPassword().sendKeys("secret_sauce");
 		lp.getloginButton().click();
 		
-		String expectedUrl = "https://www.saucedemo.com/";
+		String expectedUrl = "https://www.saucedemo.co/";
 	    String actualUrl = driver.getCurrentUrl();
 		
-		
+		Reporter.log("validating login with negative credentials");
+	    
 	    Assert.assertEquals(actualUrl,expectedUrl);
 		
 		

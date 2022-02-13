@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint two tests]">
+  <test name="sample tests(failed)">
+    <classes>
+      <class name="sauceDemoTest.endToEnd">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.endToEnd -->
+      <class name="sauceDemoTest.loginActionValidation">
+        <methods>
+          <include name="endTest"/>
+          <include name="testSetup"/>
+          <include name="negativeLogin"/>
+          <include name="testUrlnavigation"/>
+        </methods>
+      </class> <!-- sauceDemoTest.loginActionValidation -->
+    </classes>
+  </test> <!-- sample tests(failed) -->
+</suite> <!-- Failed suite [Sprint two tests] -->

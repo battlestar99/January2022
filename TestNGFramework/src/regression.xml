@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Regression testing">
+  <test name = "Regression for Release 11.5">
+  
+   <classes>
+   
+   <class name = "sauceDemoTest.endToEnd"></class>
+   <class name = "sauceDemoTest.loginActionValidation"></class>
+   <class name = "sauceDemoTest.loginValidation"></class>
+   <class name = "sauceDemoTest.testSigmaSignup"></class>
+   <class name = "package1.templateFive"></class>
+   <class name = "package1.templateFour"></class>
+   <class name = "package1.templateOne"></class>
+   <class name = "package1.templateTwo"></class>
+   <class name = "package1.templatethree"></class>
+   
+   </classes>
+  
+  
+  </test>
+</suite>

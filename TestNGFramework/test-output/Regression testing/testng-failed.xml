@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression testing]">
+  <test name="Regression for Release 11.5(failed)">
+    <classes>
+      <class name="package1.templateFive">
+        <methods>
+          <include name="btest"/>
+          <include name="setupTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- package1.templateFive -->
+      <class name="sauceDemoTest.testSigmaSignup">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.testSigmaSignup -->
+      <class name="sauceDemoTest.loginValidation">
+        <methods>
+          <include name="endTest"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- sauceDemoTest.loginValidation -->
+      <class name="package1.templateOne">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- package1.templateOne -->
+      <class name="package1.templateFour">
+        <methods>
+          <include name="endeachTest"/>
+          <include name="setupTest"/>
+          <include name="setupeachTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- package1.templateFour -->
+      <class name="sauceDemoTest.endToEnd">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.endToEnd -->
+      <class name="package1.templateTwo">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- package1.templateTwo -->
+      <class name="sauceDemoTest.loginActionValidation">
+        <methods>
+          <include name="endTest"/>
+          <include name="testSetup"/>
+          <include name="negativeLogin"/>
+          <include name="testUrlnavigation"/>
+        </methods>
+      </class> <!-- sauceDemoTest.loginActionValidation -->
+      <class name="package1.templatethree">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- package1.templatethree -->
+    </classes>
+  </test> <!-- Regression for Release 11.5(failed) -->
+</suite> <!-- Failed suite [Regression testing] -->

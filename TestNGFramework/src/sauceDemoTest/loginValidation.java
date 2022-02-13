@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -57,6 +58,8 @@ public class loginValidation {
 		boolean actualuserpassworddisplay = password.isDisplayed();
 		boolean actualuserlogindisplay = login.isDisplayed();
 		
+		Reporter.log("validating username, password and login is displayed in the login page");
+		
 		Assert.assertTrue(actualusernamedisplay);
 		Assert.assertTrue(actualuserpassworddisplay);
 		Assert.assertTrue(actualuserlogindisplay);
@@ -76,6 +79,8 @@ public class loginValidation {
 		boolean actualuserpasswordenable = password.isEnabled();
 		boolean actualuserloginenable = login.isEnabled();
 		
+		
+		Reporter.log("validating username, password and login is enabled in the login page");
 		Assert.assertTrue(actualusernameenable);
 		Assert.assertTrue(actualuserpasswordenable);
 		Assert.assertTrue(actualusernameenable);

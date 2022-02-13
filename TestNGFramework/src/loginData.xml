@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Login data testing" parallel="tests">
+
+<test name = "positive testing">
+
+<parameter name = "username" value="standard_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+<test name = "Negative testing">
+
+<parameter name = "username" value="locked_out_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+
+
+<test name = "Problem user testing">
+
+<parameter name = "username" value="problem_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+
+<test name = "Performance issue user testing">
+
+<parameter name = "username" value="performance_glitch_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+
+<test name = "Wrong username test">
+
+<parameter name = "username" value="wrongusername"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+<test name = "Wrong username test two">
+
+<parameter name = "username" value="wrongusernametwo"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedUrl" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.dataDrivenLogin"></class>
+
+</classes>
+
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

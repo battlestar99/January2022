@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Sprint two tests">
+  <test name = "sample tests">
+  
+   <classes>
+   
+   <class name = "sauceDemoTest.endToEnd"></class>
+   <class name = "sauceDemoTest.loginActionValidation"></class>
+   
+   
+   </classes>
+  
+  
+  </test>
+</suite>

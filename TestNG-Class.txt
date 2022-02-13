@@ -124,6 +124,111 @@ gettext
 1 test >> 1 test case >> 1 test scenario > 1 @test annotation
 
 1 test sciprt >> 5 @test 
+web application testing - selenium - browser automation 
+database testing - jdbc 
+api testing - rest-assured 
+
+Testing library - specific 
+test steps, exepect actual result, environment, test case id 
+
+TestNG or cucumber 
+
+testing template - common structure given to us 
+
+1. testing code - test steps, pre-req, post req - organizing code
+2. pass/fail scenerio - assertion 
+3. generate a report - 
+4. test suite - collection of test case
+5. data driven testing - test data
+
+Object driven framework - seperate web elements from test scripts
+page object model -  
+
+data driven framework - seperate test data from test scripts 
+
+
+Steps of creating manual or automation test cases: 
+
+1. requirment - user stories - BRD, SRS 
+
+2. test scenario - test case ( manual / automation) 
+jira 
+java-selenium-testng/ cypress/protractor
+100 test cases - 300 test cases - 5 mins / 2 weeks - 2 erxtra tester
+regression >> 
+save time and cost 
+
+100 test cases - automated, manual test case 
+
+3 new user stories - 
+
+user story - 1245 
+
+test scneario - 5 test scenario 
+
+5 test cases - in jira - depolyed to test envionrmnet 
+
+5 automated test - 100 + 5 >> 105 automated tests >> regression testing 
+
+user story - 1246 
+
+3 test scenarkio - 3 test cases 
+
+105 + 3 >> 108 automated tests >> regresion test 
+
+enhancement , modification - regresstion testing 
+
+test environment - dev , test1, test2-regression, staging environemnt - UAT - production
+
+https://www.yahoo.com
+
+backlog 1 - creating 5 test cases - 3 days - 3 story points
+back 2 - setting up automation testing - 2 days - 2 story point
+
+10 days - 8-9 days 
+
+1 working scneario - 
+
+Requirment - user story 
+Test plan, Test case - develop, creating, executing, automation test script
+Defect - track, resolve, close 
+Agile-scrum - methodology 
+sprint - release 
+client-team communication
+
+
+3. 
+
+
+As a tester your main responsibility is validate the requirement 
+
+
+
+
+Testing automation: TestNG 
+
+package - Testscript - java-selenium-testng
+package - page object model - non runnable class - storing web element
+package - utility classes - functions that we can use 
+set of test suites - XML files - test suite, data driven
+
+Functions - 
+
+Test suite - collection of test cases or test scripts 
+Data driven framework - 
+
+XML - extensible markup language 
+
+tags - staring tag and ending tag 
+
+Data driven framework - seperating test data from test scripts 
+
+xml, excel, database, feature
+
+
+
+
+
 
 
 

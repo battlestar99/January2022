@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "smoke testing">
+  <test name = "smoke test release 11.5">
+  
+   <classes>
+   
+   <class name = "sauceDemoTest.endToEnd"></class>
+   <class name = "sauceDemoTest.loginActionValidation"></class>
+   <class name = "sauceDemoTest.loginValidation"></class>
+   <class name = "sauceDemoTest.testSigmaSignup"></class>
+   <class name = "package1.templateFive"></class>
+   <class name = "package1.templateFour"></class>
+   
+   </classes>
+  
+  
+  </test>
+</suite>
