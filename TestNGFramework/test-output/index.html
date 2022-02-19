@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Login_data_testing">
-              <span class="suite-name border-passed">Login data testing</span>
+            <a href="#" class="navigator-link" panel-name="suite-Regression_testing">
+              <span class="suite-name border-failed">Regression testing</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Login_data_testing">
-                    <span>C:\Users\Agile1Tech\Desktop\January_2022_WS\TestNGFramework\src\loginData.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_testing">
+                    <span>C:\Users\Agile1Tech\Desktop\January_2022_WS\TestNGFramework\src\regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Login_data_testing">
-                    <span class="test-stats">6 tests</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_testing">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Login_data_testing">
+                  <a href="#" class="navigator-link " panel-name="group-Regression_testing">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Login_data_testing">
+                  <a href="#" class="navigator-link " panel-name="times-Regression_testing">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Login_data_testing">
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_testing">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Login_data_testing">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_testing">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Login_data_testing">
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_testing">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,46 +90,110 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_testing" class="hide-methods failed suite-Regression_testing"> (hide)</a> <!-- hide-methods failed suite-Regression_testing -->
+                      <a href="#" panel-name="suite-Regression_testing" class="show-methods failed suite-Regression_testing"> (show)</a> <!-- show-methods failed suite-Regression_testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateFive" hash-for-method="btest">btest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.loginActionValidation" hash-for-method="negativeLogin">negativeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_testing -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Login_data_testing" class="hide-methods passed suite-Login_data_testing"> (hide)</a> <!-- hide-methods passed suite-Login_data_testing -->
-                      <a href="#" panel-name="suite-Login_data_testing" class="show-methods passed suite-Login_data_testing"> (show)</a> <!-- show-methods passed suite-Login_data_testing -->
+                      <a href="#" panel-name="suite-Regression_testing" class="hide-methods passed suite-Regression_testing"> (hide)</a> <!-- hide-methods passed suite-Regression_testing -->
+                      <a href="#" panel-name="suite-Regression_testing" class="show-methods passed suite-Regression_testing"> (show)</a> <!-- show-methods passed suite-Regression_testing -->
                     </span>
-                    <div class="method-list-content passed suite-Login_data_testing">
+                    <div class="method-list-content passed suite-Regression_testing">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/)">LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.endToEnd" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateFive" hash-for-method="atest">atest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/)">LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateTwo" hash-for-method="btest">btest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.endToEnd" hash-for-method="checkoutProcess">checkoutProcess</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)">LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateTwo" hash-for-method="ctest">ctest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login_data_testing" title="sauceDemoTest.dataDrivenLogin" hash-for-method="LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.loginValidation" hash-for-method="displayloginElements">displayloginElements</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Login_data_testing -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.loginValidation" hash-for-method="enableLoginElements">enableLoginElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.endToEnd" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateOne" hash-for-method="mainTest">mainTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.loginActionValidation" hash-for-method="positiveLogin">positiveLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="sauceDemoTest.testSigmaSignup" hash-for-method="validateElement">validateElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateFour" hash-for-method="validateLoginElements">validateLoginElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templatethree" hash-for-method="validateLoginElements">validateLoginElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templatethree" hash-for-method="validatePositiveLogin">validatePositiveLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_testing" title="package1.templateFour" hash-for-method="validatePositiveLogin">validatePositiveLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_testing -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,336 +204,677 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Login_data_testing" class="panel Login_data_testing">
-          <div class="suite-Login_data_testing-class-passed">
+        <div panel-name="suite-Regression_testing" class="panel Regression_testing">
+          <div class="suite-Regression_testing-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">sauceDemoTest.dataDrivenLogin</span>
+              <img src="failed.png"/>
+              <span class="class-name">package1.templateFive</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/)">
-                  </a> <!-- LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(wrongusername, secret_sauce, https://www.saucedemo.com/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/)">
-                  </a> <!-- LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)">
-                  </a> <!-- LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
-                  <span class="method-name">LoginTest</span>
-                  <span class="parameters">(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                  <a name="btest">
+                  </a> <!-- btest -->
+                  <span class="method-name">btest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at package1.templateFive.btest(templateFive.java:47)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Login_data_testing-class-passed -->
-        </div> <!-- panel Login_data_testing -->
-        <div panel-name="test-xml-Login_data_testing" class="panel">
+          </div> <!-- suite-Regression_testing-class-failed -->
+          <div class="suite-Regression_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sauceDemoTest.loginActionValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogin">
+                  </a> <!-- negativeLogin -->
+                  <span class="method-name">negativeLogin</span>
+                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...s://www.saucedemo.co[m]/&gt; but was:&lt;...s://www.saucedemo.co[]/&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at sauceDemoTest.loginActionValidation.negativeLogin(loginActionValidation.java:97)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-failed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">package1.templateFive</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="atest">
+                  </a> <!-- atest -->
+                  <span class="method-name">atest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sauceDemoTest.testSigmaSignup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateElement">
+                  </a> <!-- validateElement -->
+                  <span class="method-name">validateElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sauceDemoTest.loginValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayloginElements">
+                  </a> <!-- displayloginElements -->
+                  <span class="method-name">displayloginElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enableLoginElements">
+                  </a> <!-- enableLoginElements -->
+                  <span class="method-name">enableLoginElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">package1.templateOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainTest">
+                  </a> <!-- mainTest -->
+                  <span class="method-name">mainTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">package1.templateFour</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginElements">
+                  </a> <!-- validateLoginElements -->
+                  <span class="method-name">validateLoginElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePositiveLogin">
+                  </a> <!-- validatePositiveLogin -->
+                  <span class="method-name">validatePositiveLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sauceDemoTest.endToEnd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct">
+                  </a> <!-- addProduct -->
+                  <span class="method-name">addProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutProcess">
+                  </a> <!-- checkoutProcess -->
+                  <span class="method-name">checkoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">package1.templateTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="btest">
+                  </a> <!-- btest -->
+                  <span class="method-name">btest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctest">
+                  </a> <!-- ctest -->
+                  <span class="method-name">ctest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sauceDemoTest.loginActionValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLogin">
+                  </a> <!-- positiveLogin -->
+                  <span class="method-name">positiveLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+          <div class="suite-Regression_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">package1.templatethree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginElements">
+                  </a> <!-- validateLoginElements -->
+                  <span class="method-name">validateLoginElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePositiveLogin">
+                  </a> <!-- validatePositiveLogin -->
+                  <span class="method-name">validatePositiveLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_testing-class-passed -->
+        </div> <!-- panel Regression_testing -->
+        <div panel-name="test-xml-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Agile1Tech\Desktop\January_2022_WS\TestNGFramework\src\loginData.xml</span>
+            <span class="header-content">C:\Users\Agile1Tech\Desktop\January_2022_WS\TestNGFramework\src\regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Login data testing&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test name=&quot;positive testing&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+&lt;suite name=&quot;Regression testing&quot;&gt;
+  &lt;test name=&quot;Regression for Release 11.5&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
+      &lt;class name=&quot;sauceDemoTest.endToEnd&quot;/&gt;
+      &lt;class name=&quot;sauceDemoTest.loginActionValidation&quot;/&gt;
+      &lt;class name=&quot;sauceDemoTest.loginValidation&quot;/&gt;
+      &lt;class name=&quot;sauceDemoTest.testSigmaSignup&quot;/&gt;
+      &lt;class name=&quot;package1.templateFive&quot;/&gt;
+      &lt;class name=&quot;package1.templateFour&quot;/&gt;
+      &lt;class name=&quot;package1.templateOne&quot;/&gt;
+      &lt;class name=&quot;package1.templateTwo&quot;/&gt;
+      &lt;class name=&quot;package1.templatethree&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- positive testing --&gt;
-  &lt;test name=&quot;Negative testing&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;locked_out_user&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Negative testing --&gt;
-  &lt;test name=&quot;Problem user testing&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;problem_user&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Problem user testing --&gt;
-  &lt;test name=&quot;Performance issue user testing&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;performance_glitch_user&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Performance issue user testing --&gt;
-  &lt;test name=&quot;Wrong username test&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;wrongusername&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Wrong username test --&gt;
-  &lt;test name=&quot;Wrong username test two&quot;&gt;
-    &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;wrongusernametwo&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;sauceDemoTest.dataDrivenLogin&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Wrong username test two --&gt;
-&lt;/suite&gt; &lt;!-- Login data testing --&gt;
+  &lt;/test&gt; &lt;!-- Regression for Release 11.5 --&gt;
+&lt;/suite&gt; &lt;!-- Regression testing --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Login_data_testing" class="panel">
+        <div panel-name="testlist-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Login data testing</span>
+            <span class="header-content">Tests for Regression testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">positive testing (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Negative testing (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Problem user testing (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Performance issue user testing (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Wrong username test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Wrong username test two (1 class)</span>
+                <span class="test-name">Regression for Release 11.5 (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Login_data_testing" class="panel">
+        <div panel-name="group-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Login data testing</span>
+            <span class="header-content">Groups for Regression testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Login_data_testing" class="panel">
+        <div panel-name="times-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Login data testing</span>
+            <span class="header-content">Times for Regression testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Login_data_testing');
-function tableData_Login_data_testing() {
+suiteTableInitFunctions.push('tableData_Regression_testing');
+function tableData_Regression_testing() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(0, 3, 6202);
+data.setCell(0, 1, 'checkoutProcess')
+data.setCell(0, 2, 'sauceDemoTest.endToEnd')
+data.setCell(0, 3, 2523);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginTest')
-data.setCell(1, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(1, 3, 1294);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'sauceDemoTest.endToEnd')
+data.setCell(1, 3, 552);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LoginTest')
-data.setCell(2, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(2, 3, 1289);
+data.setCell(2, 1, 'positiveLogin')
+data.setCell(2, 2, 'sauceDemoTest.loginActionValidation')
+data.setCell(2, 3, 487);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'LoginTest')
-data.setCell(3, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(3, 3, 1238);
+data.setCell(3, 1, 'addProduct')
+data.setCell(3, 2, 'sauceDemoTest.endToEnd')
+data.setCell(3, 3, 312);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginTest')
-data.setCell(4, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(4, 3, 1223);
+data.setCell(4, 1, 'negativeLogin')
+data.setCell(4, 2, 'sauceDemoTest.loginActionValidation')
+data.setCell(4, 3, 289);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginTest')
-data.setCell(5, 2, 'sauceDemoTest.dataDrivenLogin')
-data.setCell(5, 3, 339);
-window.suiteTableData['Login_data_testing']= { tableData: data, tableDiv: 'times-div-Login_data_testing'}
+data.setCell(5, 1, 'displayloginElements')
+data.setCell(5, 2, 'sauceDemoTest.loginValidation')
+data.setCell(5, 3, 105);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enableLoginElements')
+data.setCell(6, 2, 'sauceDemoTest.loginValidation')
+data.setCell(6, 3, 92);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateElement')
+data.setCell(7, 2, 'sauceDemoTest.testSigmaSignup')
+data.setCell(7, 3, 81);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'mainTest')
+data.setCell(8, 2, 'package1.templateOne')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateLoginElements')
+data.setCell(9, 2, 'package1.templatethree')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'btest')
+data.setCell(10, 2, 'package1.templateTwo')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validatePositiveLogin')
+data.setCell(11, 2, 'package1.templatethree')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'btest')
+data.setCell(12, 2, 'package1.templateFive')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateLoginElements')
+data.setCell(13, 2, 'package1.templateFour')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'atest')
+data.setCell(14, 2, 'package1.templateFive')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validatePositiveLogin')
+data.setCell(15, 2, 'package1.templateFour')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ctest')
+data.setCell(16, 2, 'package1.templateTwo')
+data.setCell(16, 3, 0);
+window.suiteTableData['Regression_testing']= { tableData: data, tableDiv: 'times-div-Regression_testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
-              <div id="times-div-Login_data_testing">
-              </div> <!-- times-div-Login_data_testing -->
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Regression_testing">
+              </div> <!-- times-div-Regression_testing -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Login_data_testing" class="panel">
+        <div panel-name="reporter-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Login data testing</span>
+            <span class="header-content">Reporter output for Regression testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/)</span>
+              <span class="reporter-method-name">displayloginElements</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">validating username, password and login is displayed in the login page</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+              <span class="reporter-method-name">validateElement</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">validating if the full name and email is enabled</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
+              <span class="reporter-method-name">enableLoginElements</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">validating username, password and login is enabled in the login page</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+              <span class="reporter-method-name">checkoutProcess</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">validating checkout is successful with a product</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)</span>
+              <span class="reporter-method-name">positiveLogin</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">validating login with positive credentials</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+              <span class="reporter-method-name">loginTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validating login with different sets of data</span>
+                <span class="reporter-method-output">Validating login with valid credential</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">validating if user can add product to the cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">negativeLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">validating login with negative credentials</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Login_data_testing" class="panel">
+        <div panel-name="ignored-methods-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Login_data_testing" class="panel">
+        <div panel-name="chronological-Regression_testing" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">sauceDemoTest.dataDrivenLogin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">sauceDemoTest.endToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">testSetup</span>
+                <span class="method-name">setupTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginActionValidation</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">4289 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginValidation</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">7636 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFive</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">11251 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFour</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">11251 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateOne</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">11251 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateTwo</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">testSetup</span>
-                <span class="method-start">2 ms</span>
+                <span class="method-name">setupTest</span>
+                <span class="method-start">11252 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">LoginTest(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3434 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LoginTest(wrongusername, secret_sauce, https://www.saucedemo.com/)</span>
-                <span class="method-start">3529 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LoginTest(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
-                <span class="method-start">3565 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LoginTest(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3627 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LoginTest(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3993 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">4733 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">4804 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">4820 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">5217 ms</span>
-              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templatethree</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">testSetup</span>
-                <span class="method-start">6785 ms</span>
+                <span class="method-name">setupTest</span>
+                <span class="method-start">11252 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.testSigmaSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">11252 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.endToEnd</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">LoginTest(wrongusernametwo, secret_sauce, https://www.saucedemo.com/)</span>
-                <span class="method-start">8484 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">15373 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProduct</span>
+                <span class="method-start">15928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutProcess</span>
+                <span class="method-start">16241 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginActionValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testUrlnavigation</span>
+                <span class="method-start">18767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">positiveLogin</span>
+                <span class="method-start">19010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">testUrlnavigation</span>
+                <span class="method-start">19498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">negativeLogin</span>
+                <span class="method-start">19582 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginValidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">displayloginElements</span>
+                <span class="method-start">19877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enableLoginElements</span>
+                <span class="method-start">19984 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.testSigmaSignup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateElement</span>
+                <span class="method-start">20077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFive</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">atest</span>
+                <span class="method-start">20160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">btest</span>
+                <span class="method-start">20161 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFour</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupeachTest</span>
+                <span class="method-start">20164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginElements</span>
+                <span class="method-start">20164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endeachTest</span>
+                <span class="method-start">20165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupeachTest</span>
+                <span class="method-start">20165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePositiveLogin</span>
+                <span class="method-start">20166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endeachTest</span>
+                <span class="method-start">20168 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateOne</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mainTest</span>
+                <span class="method-start">20168 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateTwo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">btest</span>
+                <span class="method-start">20170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ctest</span>
+                <span class="method-start">20172 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templatethree</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoginElements</span>
+                <span class="method-start">20173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePositiveLogin</span>
+                <span class="method-start">20175 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.endToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">8823 ms</span>
+                <span class="method-start">20176 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginActionValidation</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">9830 ms</span>
+                <span class="method-start">23055 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.loginValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">25956 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFive</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26706 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateFour</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26706 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26706 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templateTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26706 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">package1.templatethree</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26707 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.testSigmaSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">26707 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

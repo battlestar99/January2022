@@ -16,7 +16,7 @@ import pages.checkoutStepOne;
 import pages.loginPage;
 import pages.productPage;
 
-public class endToEnd {
+public class endToEnd extends baseTest {
 	
 	WebDriver driver; 
 	loginPage lp;
@@ -30,10 +30,8 @@ public class endToEnd {
 	@BeforeTest
 	public void setupTest() throws InterruptedException {
 		
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\January_2022_WS\\seleniumBasic\\Lib\\chromedriver.exe");
+		setup();
 		
-		driver = new ChromeDriver();
-	
 		 lp = new loginPage(driver);
 		 pp = new productPage(driver);
 		 cr = new cart(driver);

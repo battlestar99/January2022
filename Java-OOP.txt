@@ -1,0 +1,183 @@
+API and SQL - 3/4 classes 
+
+cucumber - 
+code organization - git, maven, jenkins 
+
+TestNG - 
+
+xml file - 
+
+starting tag 
+
+<abc>  </abc>
+
+1. annotations - sequence - beforetest, aftertest, test
+
+2. assertions - pass/fail scenario - expected and actual test
+Assert.assertequals
+
+3. generating report - TestNG report - 
+
+4. test suite - smoke, regression, sanity, uat - xml file 
+
+acceptance criterion - release plan 
+
+5. data driven testing - xml file - by creating seperates tests
+Test data - 
+
+6. page object model - why and how - each class one web page 
+
+7. how to find a web elements - id, name, xpath
+
+8. OOP - 
+
+
+
+
+
+Object oriented programming - 
+
+traditional coding concept - 
+
+instructions 1- storing a number
+instuctions 2 - add 100 with that number 
+
+Java and C# - object oriented programming lanaguage 
+
+How the classes and objects interacts with each other, and how their relationship works
+
+- class (non runnable class)  and object
+
+class is a design or prototype of any system - software - 
+
+what the system can do - functions/methods 
+what are the properties do - global variable of the software 
+
+object - is the implemenation of the design or prototype 
+
+function or properties - static - no need to create an object, direct call from class
+assertequals
+Assert.assertequals()
+
+constructor - if you want your system to do something when any object is created from the system - you can add construtor/s 
+
+constructore overloading - you have multiple constructor in the class - 
+
+this - is a keyword to refer to the gloabl variable if there is a local variable
+with same name 
+
+method overloading - when we have multiple functions in the same name
+but with different parameters 
+
+same method or same name method implemented differently 
+
+
+
+
+
+
+designing one class - or system 
+
+feature: 
+properties
+method 
+
+technique
+constructor 
+
+multiple implementation
+constructor overloading - multiple 
+method overloading - multipe 
+
+Desiging multiple class and make relationship between them: 
+
+inheritance - where there is parent child relationship between classes - 
+super class - sub class relationship 
+
+
+checkingAccount becomes the child or sub class of bankaccount 
+
+checkingAccount m = new chekcingAccunt(); 
+
+child class or sub class object will get everything from parent class or super class but parent class object will not get anything from child class
+
+
+
+method overriding - 
+
+if the child class has the same functions or properties as the parent class
+then child must have to use its own function or properties 
+
+super keyword - if you want to refer to your parent class function you can use super 
+
+implemenation of inheritance: 
+
+to share common functionalities between classes
+
+bankaccount - deposit, withdraw, transer
+checking extends bankaccount
+saving extends bankaccount
+mortage extends bankaccount
+
+implemenation of inheritance in our automated testing: 
+
+we can share common functionalites through out differnet classes 
+
+baseClass - 
+
+utility classes - base class - 
+
+page object model class - 
+
+abstract class - a class where you can not create an object - only create 
+the class if you want to share some common functionalites with other classes 
+
+but the functionalities of the class are used by the child class or sub class 
+
+
+
+interface - is an outline of set of classes 
+
+WebDriver 
+
+chromedriver
+firefoxdriver
+operadriver
+iedriver
+
+defining a function - name, parameter, return type
+
+implement the function - writing the code inside the function scope 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

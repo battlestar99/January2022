@@ -15,10 +15,10 @@ import org.testng.annotations.Test;
 
 import pages.loginPage;
 
-public class dataDrivenLogin {
+public class dataDrivenLogin extends baseTest {
 	
 	
-	WebDriver driver; 
+	//WebDriver driver; 
 	loginPage lp;
 	
 	
@@ -26,19 +26,14 @@ public class dataDrivenLogin {
 	@BeforeTest
 	public void testSetup() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\January_2022_WS\\seleniumBasic\\Lib\\chromedriver.exe");
-		
-		driver = new ChromeDriver();
+		setup();
 		
 		lp = new loginPage(driver);
 		
 		driver.get("https://www.saucedemo.com/");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		driver.manage().deleteAllCookies();
 		
-		//driver.manage().window().maximize();
 		
 		
 		
