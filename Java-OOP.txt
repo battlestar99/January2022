@@ -71,25 +71,22 @@ but with different parameters
 
 same method or same name method implemented differently 
 
-
-
-
-
-
 designing one class - or system 
 
 feature: 
-properties
-method 
+properties/global variable 
+method / functions 
 
 technique
 constructor 
 
 multiple implementation
 constructor overloading - multiple 
-method overloading - multipe 
+method overloading - multiple 
 
 Desiging multiple class and make relationship between them: 
+
+inheritance, abstract class , interface
 
 inheritance - where there is parent child relationship between classes - 
 super class - sub class relationship 
@@ -103,7 +100,7 @@ child class or sub class object will get everything from parent class or super c
 
 
 
-method overriding - 
+method overriding - happens when there is a child parent relationship 
 
 if the child class has the same functions or properties as the parent class
 then child must have to use its own function or properties 
@@ -123,7 +120,8 @@ implemenation of inheritance in our automated testing:
 
 we can share common functionalites through out differnet classes 
 
-baseClass - 
+baseClass - setup different browser, login to system. closing the brwoser
+, read data from excel 
 
 utility classes - base class - 
 
@@ -138,7 +136,7 @@ but the functionalities of the class are used by the child class or sub class
 
 interface - is an outline of set of classes 
 
-WebDriver 
+WebDriver - interface
 
 chromedriver
 firefoxdriver
@@ -148,6 +146,94 @@ iedriver
 defining a function - name, parameter, return type
 
 implement the function - writing the code inside the function scope 
+
+Java - object oriented programming
+
+Access modifiers: set up accessibility within classes and pacakges
+
+public - accessible from inside and outside of package
+private - only accessible inside the class - 
+protected - accessible inside the same pacakge 
+no modifier - same as protected
+
+different libraries - 
+
+private method: 
+
+ int getdata(parameters){
+
+return 12
+}
+
+
+abstraction >> abract class 
+
+private method or properties 
+
+inheritance>> child parent , super sub class
+
+encapsulation>> properties and functions in same class
+
+properties 
+functions 
+
+polymorphism>> 
+method overloading >> same method different implement >> same method 
+in different form 
+
+bankaccount 
+
+checking account - sub class of bankaccount
+
+checking account VA - sub class checking account 
+
+cva - 
+
+car 
+
+sedan subclass car
+
+honda subclass sedan
+
+civic subclass of hond 
+
+civic c = new civic() 
+
+c is civic, honda, sedan, car 
+Exception in java: 
+
+error - syntax issue - will not be compile the code - compile time error
+
+exception - runtime error 
+
+exception handling: 
+
+1. throwing the exception with a function
+
+2. try and catch block to handle the exception 
+
+no such element exception - selenium library
+null pointer exception - java library - 
+
+session not created exception - chrmore browser value and chrome driver value is not 
+97 - browser
+96 - driver
+
+web driver exception - configuration issue in your eclipse, configuration issue in your code 
+
+stale element references exception - 
+
+page object model - 
+
+driver is in page 1 - found some web element 
+then driver move to page 2 - 
+then come back to page 1 - tried to use the web element you found earlier
+
+
+
+
+
+
 
 
 
