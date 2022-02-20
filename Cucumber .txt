@@ -1,5 +1,5 @@
 A testing library like TestNG - BDD - Behaviour driven development 
 
-1. programming libaries 
+1. programming libaries - set of jar files
 
 2. cucumber plugin
