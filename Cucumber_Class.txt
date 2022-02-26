@@ -1,0 +1,113 @@
+Cucumber - Testing Library or framework 
+
+setup : 
+
+1. plugin to install in your eclipse 
+
+2. programming libraries - copy the jar files to the java project and add them to your build path 
+
+cucumber - BDD - behaviour driven devlopment - testing the behaviour 
+of the application 
+
+TDD - test driven development - you have to write tests even before the application is developed - analyzing the requirment 
+
+login panel - 
+
+1. user name and password to login
+2. user has to be only characters
+3. password can not be less than 8 charaters - 
+
+write the test - share it with the developers - 
+
+Testscript - Technical - programming 
+
+cucumber has two component: 
+
+component 1: non technical - 
+component 2: technical code - that only automation testers can understand
+
+Testing library: TestNG / Cucumber
+
+1. code organization
+2. pass/fail scenario - assertion 
+3. Test suite - multiple tests 
+4. generate report - 
+5. data driven framework - 
+
+non-technical - Feature file - Test Scenarios - Feature files - we 
+add test scenarios 
+technical - step definition - java - selenium
+
+Test suite - Test runner - Junit
+
+Feature: 
+gherkin language - gherkin keywords 
+
+Given - pre condition of the test 
+When - the user action 
+Then - feedback of the application based on user action 
+And - just adding more when and then 
+But - user is expecting any reverse or negative behaviour from the application
+
+
+@Given
+public void setup(){
+
+// going to get execute
+}
+
+@When
+
+@BeforeTest
+public void setupTest(){
+
+}
+
+TDD - you write test before the development begins 
+Test driven development - 
+
+manual test cases - 
+manual test - 
+
+test name : validateLogin
+
+Reporter.log("this test is about something")
+
+can not implement one step multiple time 
+
+70 test case X 5 = 350 steps 
+
+100 steps - 200 steps 
+
+
+
+
+
+
+User story: 
+
+user should be able to add and remove product from the cart 
+
+Feature: 
+
+step definition: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
