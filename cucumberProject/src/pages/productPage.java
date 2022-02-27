@@ -40,6 +40,15 @@ public WebElement addBikeLighttoCart() {
 	return x; 
 	
 }
+
+
+public WebElement removeBackpacktoCart() {
+	
+	WebElement x = driver.findElement(By.id("remove-sauce-labs-backpack"));
+	
+	return x; 
+	
+}
 	
 	
 	

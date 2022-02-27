@@ -331,14 +331,55 @@ public void user_can_stay_or_login_to_the_page_based_on_test_data(String expecte
     
      String actualUrl = driver.getCurrentUrl();
 	
-	Assert.assertEquals(expectedUrl, actualUrl);
+	Assert.assertEquals(expectedUrl, actualUrl);	
 	
-	
-	
+}
+
+@When("^user add a product to the cart$")
+public void user_add_a_product_to_the_cart() {
+    
+	pp.addBackpacktoCart().click();
 	
 	
 	
 }
+
+@Then("^user should see the remove option enabled$")
+public void user_should_see_the_remove_option_enabled()  {
+  
+	String actualText = pp.removeBackpacktoCart().getText();
+	String expectedText = "REMOVE";
+	
+	
+	Assert.assertEquals(expectedText, actualText);
+	
+	
+}
+
+@When("^user click remove option$")
+public void user_click_remove_option() throws InterruptedException  {
+	
+	Thread.sleep(1000);
+	pp.removeBackpacktoCart().click();
+	
+	
+    
+}
+
+@Then("^user should see the add option to cart is enabled$")
+public void user_should_see_the_add_option_to_cart_is_enabled()  {
+   
+	
+	String actualText = pp.addBackpacktoCart().getText();
+	String expectedText = "ADD TO CART";
+	
+	
+	Assert.assertEquals(expectedText, actualText);
+	
+	
+}
+
+
 
 
 
