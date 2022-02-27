@@ -155,6 +155,14 @@ object driven framework - implemented through page object model
 
 data driven framework - 
 
+cucumber-java
+cucumber-junit
+cucumber-core
+
+scenario: validate if an user can add and remove product from the
+ cart
+
+
 
 
 
