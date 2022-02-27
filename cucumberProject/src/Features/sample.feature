@@ -1,6 +1,7 @@
 #Author: Razin Anik
 Feature: this is a sample feature
 
+@smoke
   Scenario: this is a sample scnerio
     Given precondition
     When user action one

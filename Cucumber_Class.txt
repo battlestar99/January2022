@@ -86,14 +86,74 @@ can not implement one step multiple time
 
 User story: 
 
+saucedemo 
 user should be able to add and remove product from the cart 
 
 Feature: 
 
 step definition: 
 
+891-599-613
 
 
+
+
+Cucumber - 
+
+1. chrome browser - 
+2. chrome driver - location 
+3. local and global variable 
+
+declaration 
+initialization 
+
+declare
+webDriver driver; 
+
+int x; 
+
+x=12;
+
+driver = new chromedriver(); 
+
+
+cucumber - two components 
+
+feature file - non technical - gherkin language 
+given when then and but 
+
+step defition - technical - java class 
+
+selenium library - two selenium jars 
+testng - bring one testng - 3 libraries 
+cucumber - cucumber jars - selenium jars 
+
+plugins are for eclipse - 
+
+test suite 
+test report 
+
+Test runner >> test suite + test report
+
+junit test runner >> 
+
+data driven testing 
+
+Beforemethod >> @Test
+
+Background happens before each scenario
+
+Hooks >> are used to execute steps before and after all the feature 
+file 
+
+@Before
+@After
+
+data driven framework using cucumber: 
+
+object driven framework - implemented through page object model 
+
+data driven framework - 
 
 
 
