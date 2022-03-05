@@ -4,6 +4,7 @@ public class runBank {
 
 	public static void main(String[] args) {
 		
+		int x = 45; 
 		
 		bankAccount jim = new bankAccount(); 
 		
