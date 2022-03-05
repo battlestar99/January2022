@@ -1,0 +1,211 @@
+Code manage - share - remote server - CI/CD pipeline 
+
+Automation Testing 
+
+Java
+Selenium
+TestNG
+Cucumber
+
+which test to automate: 
+
+1. regression tests 
+2. data driven testing
+3. complicated and long - takes time to execute 
+4. imporant - smoke 
+Automation Testing Framework looks like: 
+
+java-selenium-TestNG 
+
+maven project - 
+
+Testscripts - @Test 
+Page object model classes - webelement from test script 
+Utility classes - package - share common funtionalities testscript/page classes
+TestNG xml - Test suite - parameter - smoke, regression, UAT
+Generate report - 
+
+java-selenium-Cucumber
+
+Feature - scenarios - test case - data table
+Step definition - java 
+page object model classes - object driven rfrmawork 
+utility classes - 
+Test runner - Junit - running multiple tests, add tags, generate report
+
+eclipse - writing your test scripts in eclipse 
+running test scripts from eclipse - 
+
+2-3 automation testers working in the team - 
+
+self - automation tester
+project structure - maven 
+
+devops - 
+coding repository - github, bitbucket, gitlab
+
+self - 
+version control - git 
+
+devops - development operation 
+remote server/CI-CD pipeline - jenkins, bamboo, 
+
+
+scenario 1: started working in a project where already automation testing in place - and there codes already there - already have
+maven project 
+
+scenario 2: new project - no code - start from scratch - create your maven
+project 
+
+local machine - your personal or office computer 
+
+setting up computer from the help of help desk
+1. java ( jdk), eclipse, setup your project (programming libraries, plugins)
+
+2.  create a maven project - define your libraries - download them from maven repositoy 
+
+3. depending on your work requirement - you setup a project or framework template - package, data, xml, libraries 
+
+4. creating test scripts - contineous process 
+
+5. share your test scripts with your team - with your company 
+ask devops - create a github repo (devops)  - you push the code to the 
+repository 
+
+automation tester reponsiblity is done - 
+
+Web - UI - java, python, C# for creating application irrelavant
+
+HTML, CSS, Javascript 
+mozila, chrome
+
+1. brwoser is installed - mozila
+2. driver for mozila - 
+
+6. remote server - CI/CD pipeline - devops team 
+
+
+
+
+Component 1: code organziation
+
+choosing a build managmnet system - project system 
+
+maven, gradle, ant - 
+maven - most popular - java 
+
+why not creating a java project and creating a maven project? 
+
+1. dependency managment - library managment 
+2. share the code - importable 
+3. for running code from remote server or CI/CD pipeline - we need a build managment 
+
+Maven project - 
+special type of build management system to manage your code, dependecies ( libraries), build 
+
+maven is installed with eclipse - 
+
+command line - cmd - is not required because we are running code 
+from eclipse 
+
+Group ID - related to module, application, or company 
+
+DOT - FMSC
+
+gov.dot.fmsc
+
+
+com.bcbs.payment
+
+pom.xml - project object model - defines the dependencies and plugins 
+require for the project 
+
+maven - 
+local maven - 
+remote maven or web maven - 
+
+maven commands - 
+
+maven clean - clean any temporary file 
+maven install - will try to install all dependencies and plugins
+maven test - running the code from maven 
+maven deploy - creating a jar file from the project 
+
+running your code - from local machine - 
+
+TesNG - TestNG Testt
+xml - TestNG Suite 
+
+cucumber - 
+feature file - running
+test runner - running - test suite 
+
+maven test - is required to run if we have a remote server to run test from - 
+jenkins - maven test
+
+To run any code from maven - 
+
+surefire plugin 
+maven compiler plugin 
+
+Sharing Code with team and project: 
+
+github/gitlab/bitbucket - web application to store 
+
+version control - track all your code changes 
+
+version 1
+version 2 
+version 3
+
+version control - Git 
+
+git is tracking a folder - whatever changes happening inside a folder 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
