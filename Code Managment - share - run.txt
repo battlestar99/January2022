@@ -177,13 +177,28 @@ git is tracking a folder - whatever changes happening inside a folder
 
 
 
+local repo - 
+
+remote repo - 
+
+local and remote are in the same phase - 
+
+another tester pushes code to the remote - 
+
+git cloning means - downloading code 
+
+https://github.com/battlestar99/sampleMavenTest.git
 
 
 
 
+remote server - 
 
+1. not everyone can run the code from their local - because they can't setup 
 
+2. CI/CD pipeline - can make the process of developing, testing, deployment more streamlined - automated 
 
+contineous integration and contineous development 
 
 
 

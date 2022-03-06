@@ -1,0 +1,199 @@
+API or web service testing >> 
+
+Web UI - user interface - functionality testing 
+
+UI - front end - user action 
+backend - data storage , data transportation 
+
+interaction with database : 
+
+CRUD - create read update delete 
+
+API - application programming interface - programming library
+
+web service - 
+
+create read update delete 
+
+request 
+
+respone 
+
+1. your company has an application - that has an api 
+
+2. your company is using different companies data - you need to test
+the other companies 
+
+functional web UI - manual - automation - java - selenium-cucumber-testng
+
+cypress, katalon
+
+back-end - 
+
+web service - transporation medium - postman, soap ui, ready api
+java, rest-assured, http - client, cucumber, testng 
+
+database - sql - workbench - java, jdbc, testng, cucumber
+
+
+CRUD - 
+create
+read 
+update
+delete 
+
+API - web service 
+
+Rest API - 90 percent 
+
+SOAP API - 
+
+
+where you are going to get the request from? 
+
+How to configure them? 
+
+what is your expected response? 
+
+
+
+1. configure the request however required - you need to know what 
+request you are going to send and what this request is supposed to 
+do 
+
+2. sending a specific request to check if you can 
+create read update or delete data 
+
+3. getting a response from the API either in JSON or XML format 
+
+4. validating the response - manually - script 
+actual and expected 
+
+5. logging the defects 
+
+
+
+
+Get - reading data from the database - 
+
+post - creating new data - 
+
+Request structure: 
+
+Get – http://agile1tech.com/employees 
+configure: authentication method
+body of the request: 
+test script - associate with the request
+
+API documenation for the api you are going to test - 
+
+swagger 
+
+Doc 1: 
+
+request description: 
+getting the list of all the employees 
+http Request: 
+get 
+request URL: 
+http://agile1tech.com/employees
+authentication: 
+bearer token 
+response body: 
+list of all employees in the company
+response code: 
+200
+
+steps of starting to test: 
+
+1. API documentation - swagger - talk with developer 
+
+2. API test cases - excel file 
+
+3.creating the test cases in postman - 
+bearer token is given by developerr 
+I write the test using javascript code of postman 
+
+4. collection - smoke testing
+regression testing 
+payment module testing collection
+
+5. collection 
+
+
+things to validate: 
+
+http response code - 
+http body - json, xml - transportation 
+response time - 5ms, 2ms - performance of the API 
+
+to validate anything what you need: 
+
+expected result - api documentation, developer 
+actual result - you are getting from the test
+
+
+Get - readind data - 200, 404, 400
+
+post - creating new data - 201 ( created)
+
+put - updating data - 200 (ok). 201 (created) 
+
+delete - deleting data - 202 ( accepted) 
+
+500 - internal server error 
+
+ https://reqres.in/api/users?page=2
+
+https://reqres.in/api/users?page=2
+
+
+https://reqres.in >> URL - uniform resource locator 
+
+https://reqres.in/api/users?>> URI - uniform resourc identifier 
+
+page=2 >> end point 
+
+postman, soap ui , ready api 
+
+postman - web version 
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("michael.lawson@reqres.in");
+
+pm.test("Response time is less than 15ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(15);
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
