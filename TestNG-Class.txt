@@ -2,7 +2,7 @@ Test Script : automated test case
 code/class/script >> actually execute tests 
 
 Test case: manual test case 
-
+  
 java main method >> way of running any java code >> runnable class
 non-runnable class >> functions + properties 
 
