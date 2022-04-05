@@ -44,7 +44,7 @@ public class templateFive {
 		
 		//Assert.assertTrue(false);
 		
-		Assert.assertFalse(false);
+		Assert.assertFalse(true);
 		
 		
 		
