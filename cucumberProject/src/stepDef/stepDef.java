@@ -75,7 +75,11 @@ public class stepDef {
 		System.out.println("applicaiton response two");
 	}
 	
-	
+	@Then("^application respone two$")
+	public void application_respone_three()  {
+	    
+		System.out.println("applicaiton response two");
+	}
 	
 	@Then("^c$")
 	public void c() throws Throwable {
